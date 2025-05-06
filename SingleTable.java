@@ -9,20 +9,24 @@ public class SingleTable
       viewQuality = v;
       height = h;
     }
+
     public int getNumSeats()
     {
+      return seats;
     }
 
     public int getHeight()
     {
+      return height;
     }
 
     public double getViewQuality()
     {
-      
+      return viewQuality;
     }
 
     public void setViewQuality(double value)
     {
+      viewQuality = value;
     }
   }
